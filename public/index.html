@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CTF Challenge</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div id="clue-container">
+        <h1>Welcome to the CTF Challenge!</h1>
+        <p>The Doctor is at play again. His movements are elusive, his plans obscure.</p> 
+            <p>But one thing is certain: he's hiding something valuable. A powerful artifact. A key to something greater.</p>
+        <p>Where could he have hidden it? The answer is buried deep within the shadows of GDG.</p> 
+           <p>Follow the trail of clues, and you'll be one step closer to uncovering the truth.</p>
+        <p>HINT: Check out GDG's pinned Instagram posts. What secrets lie within?</p>
+        <form action="/check-clue" method="POST">
+            <input type="text" name="clue" placeholder="Enter clue here" required>
+            <button type="submit">Submit Clue</button>
+        </form>
+    </div>
+</body>
+</html>
+

@@ -1,0 +1,41 @@
+body {
+    background-color: black;
+    color: white;
+    font-family: Arial, sans-serif;
+    text-align: center;
+}
+
+h1 {
+    color: red;
+}
+
+input {
+    padding: 10px;
+    margin: 10px;
+    border: none;
+    border-radius: 5px;
+    background-color: #333;
+    color: white;
+}
+
+button {
+    padding: 10px;
+    background-color: red;
+    color: white;
+    border: none;
+    border-radius: 5px;
+}
+
+button:hover {
+    background-color: darkred;
+}
+
+#message {
+    margin-top: 20px;
+    font-size: 18px;
+}
+
+img {
+    max-width: 300px;
+    margin-top: 20px;
+}
