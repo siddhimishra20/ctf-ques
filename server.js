@@ -13,7 +13,7 @@ app.get('/', (req, res) => {
 
 app.post('/check-clue', (req, res) => {
     const clueInput = req.body.clue.toLowerCase().trim();
-    const correctClue = "it lies where knowledge flows";
+    const correctClue = "it rests where knowledge flows";
 
     if (clueInput === correctClue) {
         res.send(`
