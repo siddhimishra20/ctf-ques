@@ -18,7 +18,7 @@ app.post('/check-clue', (req, res) => {
     if (clueInput === correctClue) {
         res.send(`
             <h1>Clue solved! But where's the flag?</h1>
-            <p>Maybe it's hidden somewhere...hmm...what does "knowledge" mean? Possibly a directory?</p>
+            <p>Maybe it's hidden somewhere...hmm...what does "kn0wledge" mean? Possibly a directory?</p>
         `);
     } else {
         res.send(`
@@ -29,8 +29,8 @@ app.post('/check-clue', (req, res) => {
     }
 });
 
-app.get('/knowledge', (req, res) => {
-    res.sendFile(path.join(__dirname, 'public', 'knowledge', 'index.html'));
+app.get('/kn0wledge', (req, res) => {
+    res.sendFile(path.join(__dirname, 'public', 'kn0wledge', 'index.html'));
 });
 
 app.listen(port, () => {
