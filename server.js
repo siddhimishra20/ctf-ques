@@ -22,7 +22,7 @@ app.post('/check-clue', (req, res) => {
         `);
     } else {
         res.send(`
-            <h1>ERROR!</h1>
+            <h1>400 ERROR!</h1>
             <p style="color: red;">Incorrect clue. Try again!</p>
             <p style="color: red;">2/base64</p>
             <a href="/">Go back</a>
